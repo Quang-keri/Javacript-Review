@@ -1,0 +1,24 @@
+h1{
+  background-color: bisque;
+  color: black;
+  text-align: center;
+}
+
+
+.container{
+ display: flex;
+
+}
+
+.healthbar{
+  border: 1px solid black;
+  margin: 5px;
+  height: 20px;
+  width: 700px;
+}
+
+.healthbar__value{
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
