@@ -1,13 +1,13 @@
 import { useContext } from "react";
 import "./App.css";
-import { UseContext } from "./Storage/UseContext";
+import { LearnContext } from "./Storage/LearnContext";
 import { ThemeContext } from "./ThemeProvider";
 function App() {
   const context = useContext(ThemeContext);
   return (
     <div className="App">
       <button onClick={context.toggleTheme}>Nút này đổi màu</button>
-      <UseContext />
+      <LearnContext />
     </div>
   );
 }
