@@ -8,10 +8,10 @@ export function ThemeProvider({ children }) {
     setTheme(theme === "dark" ? "light" : "dark");
   };
   // chuyển theme,toggleTheme thành object r truyền giá trị xg thông qua context
-  const valueTheme = {
-    theme,
-    toggleTheme,
-  };
+  // const valueTheme = {
+  //   theme,
+  //   toggleTheme,
+  // };
 
   return (
     <ThemeContext.Provider
