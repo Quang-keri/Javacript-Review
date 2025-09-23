@@ -1,6 +1,6 @@
 import Paragraph from "./Paragraph";
 
-export default function UseContext() {
+export function UseContext() {
   return (
     <div>
       <h2>
